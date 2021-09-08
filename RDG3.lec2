@@ -1,0 +1,77 @@
+# Import Libraries
+
+importNumPy
+import SciPy constants
+
+# Assign the charges to variables
+
+x = #
+y = 5*10**-11
+z = 5*pow(10,-11)
+
+
+# Assign the locations to variables - convert cm to meters
+
+a variable locations as NumPy arrays
+b
+c
+d
+q2_loc=np.array([0.06,0.02,0])
+
+k = 1/(4*np.pi*constands.epsilon_0)
+
+# E at Q3 due to Q1
+
+r (observations location - source charge location) =
+
+runit (r/mag of r) = 
+using
+np.linalg.norm()
+
+E (electric field equ) =
+
+# E at Q3 due to Q2
+
+r2 (observations location - source charge location) =
+
+runit2 (r/mag of r) = 
+using
+np.linalg.norm()
+
+E2 (electric field equ) =
+
+# E net at Q3 and F net on Q3
+
+h = electric field at q3 due to q1 +  electric field at q3 due to q2
+ 
+i = net force on Q3
+
+E_net = E_1 + E_2
+
+
+# E at A due to Q1
+
+
+
+# E at A due to Q2
+
+
+
+# E at A due to Q3
+
+
+
+# E net at A and F net on A with charge
+
+
+
+# Print the answers
+
+print("a)", list(E_1), "N/C"
+
+print E q3 due to q1
+print E q3 due to q2
+print EFieldnet at q3
+print Fnet at q3
+print E A due to q1
+print E A due to q2
