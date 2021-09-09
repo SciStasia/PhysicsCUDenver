@@ -1,0 +1,117 @@
+# Import Libraries
+
+import numpy as np
+
+from scipy import constants
+
+# Assign the charges to variables
+
+x = -2*10**-6
+y = 3*10**-6
+z = -4.5*10**-6
+
+# 5*pow(10,-11)
+
+# Assign the locations to variables - convert cm to meters
+
+# a, b,c, d variable locations as NumPy arrays
+
+q1_loc=np.array([0, 4, 0])
+q2_loc=np.array([4, 3, 0])
+q3_loc=np.array([4, 0, 0])
+qA_loc=np.array([0, 0, 0])
+
+k = 1/(4*np.pi*constands.epsilon_0)
+
+# E at Q3 due to Q1
+# r (observations location - source charge location) =
+
+rVec = Locationq3 - Locationq1
+r_vec_mag = np.linalg.norm(rVec)
+rHat = rVec/r_vec_mag
+E_field = ((k*q2Charge)/(np.abs(r_vec_mag)**2))*rhat2
+
+# E at Q3 due to Q2
+#r2 (observations location - source charge location) =
+#runit2 (r/mag of r) = 
+#using
+#np.linalg.norm()
+#E2 (electric field equ) =
+
+rVec2 = Locationq3 - Locationq2
+r_vec_mag2 = np.linalg.norm(rVec2)
+rHat = rVec2/r_vec_mag2
+E_field = ((k*q2Charge)/(np.abs(r_vec_mag2)**2))*rhat2
+
+
+# E net at Q3 and F net on Q3
+#h = electric field at q3 due to q1 +  electric field at q3 due to q2
+#i = net force on Q3
+#E_net = E_1 + E_2
+
+E_net_q3 = E_field + E_field2
+F_net_q3 = (q3Charge)*(E_net_q3)
+
+# E at A due to Q1
+#r2 (observations location - source charge location) =
+#runit2 (r/mag of r) = 
+#using
+#np.linalg.norm()
+#E2 (electric field equ) =
+
+rVec3 = LocationqA - Locationq1
+r_vec_mag3 = np.linalg.norm(rVec3)
+
+# E at A due to Q2
+#r2 (observations location - source charge location) =
+#runit2 (r/mag of r) = 
+#using
+#np.linalg.norm()
+#E2 (electric field equ) =
+
+rVec4 = LocationqA - Locationq2
+r_vec_mag4 = np.linalg.norm(rVec4)
+
+# E at A due to Q3
+#r2 (observations location - source charge location) =
+#runit2 (r/mag of r) = 
+#using
+#np.linalg.norm()
+#E2 (electric field equ) =
+
+rVec5 = LocationqA - Locationq3
+r_vec_mag5 = np.linalg.norm(rVec5)
+
+# E net at A and F net on A with charge
+#r2 (observations location - source charge location) =
+#runit2 (r/mag of r) = 
+#using
+#np.linalg.norm()
+#E2 (electric field equ) =
+
+rVec3 = LocationqA - Locationq1
+r_vec_mag3 = np.linalg.norm(rVec3)
+more stuff here :/
+
+# Print the answers
+
+#print("a)", list(E_1), "N/C" first one different??
+print("E at q3 due to q1 is)", list(E_field), "N/C"
+
+#print E q3 due to q1
+print("E at q3 due to q1 is)", list(E_field), "N/C"
+
+#print E q3 due to q2
+print("E at q3 due to q2 is)", list(E_field), "N/C"
+
+#print EFieldnet at q3
+print("E net due to q3 is)", list(E_field), "N/C"
+
+#print Fnet at q3
+print("Fnet at to q3 is)", list(E_field), "N/C"
+
+#print E A due to q1
+print("EqA due to q1 is)", list(E_field), "N/C"
+
+#print E A due to q2
+print("EqA due to q2 is)", list(E_field), "N/C"
